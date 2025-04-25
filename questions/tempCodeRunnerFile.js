@@ -25,12 +25,14 @@
 // person1.getName() 
 
 
-function add(a, b, cb){
-    let result = a + b;
-    cb(result);
-}
+// function add(a, b, cb){
+//     let result = a + b;
+//     cb(result);
+// }
 
 
-add(2, 4, function(val){
-    console.log(val)
-})
+// add(2, 4, function(val){
+//     console.log(val)
+// })
+
+

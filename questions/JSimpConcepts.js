@@ -27,7 +27,7 @@
 
 // 4️⃣ Constructor Function (Called using new to create an object)
 
-// function Person(name) {
+// function Person(name) { //create with Pascel case
 //     this.name = name;
 // }
 // const user = new Person("Rihan"); // Call with `new` keyword
@@ -108,6 +108,9 @@
 
 //.this inside DOM elements => reference to HTML Elements
 
+
+//What is method in JS?
+// If function create in a object as a key it is called methods. 
   
   
 

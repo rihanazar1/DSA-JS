@@ -428,6 +428,22 @@
 //     second = third
 // }
 
+
+
+// let num = 10 
+// let first = 0
+// let second = 1
+
+// let result = first + " " + second + " "
+
+// for(let i=3; i<=num; i++){
+//     let third = first + second 
+//     result = result + third + " "
+//     first = second
+//     second = third
+// }
+// console.log(result)
+
 //_______________________________________________________
 // do{ 
 //     // var a ="hello"
@@ -439,6 +455,56 @@
 //         console.log("Program Exits") 
 //     }
 // }while(rep > 1 && rep < 1 || rep === 1);
+
+//________________________________________________________________
+
+// let choice;
+
+// do {
+//     choice = parseInt(prompt(
+//         "Choose an operation:\n" +
+//         "1. Addition\n" +
+//         "2. Subtraction\n" +
+//         "3. Multiplication\n" +
+//         "4. Division\n" +
+//         "5. Exit\n\n" +
+//         "Enter your choice:"
+//     ));
+
+//     if (choice >= 1 && choice <= 4) {
+//         let num1 = parseFloat(prompt("Enter the first number:"));
+//         let num2 = parseFloat(prompt("Enter the second number:"));
+//         let result;
+
+//         switch (choice) {
+//             case 1:
+//                 result = num1 + num2;
+//                 alert("Sum = " + result);
+//                 break;
+//             case 2:
+//                 result = num1 - num2;
+//                 alert("Difference = " + result);
+//                 break;
+//             case 3:
+//                 result = num1 * num2;
+//                 alert("Product = " + result);
+//                 break;
+//             case 4:
+//                 if (num2 !== 0) {
+//                     result = num1 / num2;
+//                     alert("Quotient = " + result);
+//                 } else {
+//                     alert("Division by zero is not allowed.");
+//                 }
+//                 break;
+//         }
+//     } else if (choice !== 5) {
+//         alert("Invalid choice. Please try again.");
+//     }
+
+// } while (choice !== 5);
+
+// alert("Calculator exited.");
 
 
 //___________________________________________

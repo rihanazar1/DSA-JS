@@ -160,6 +160,210 @@
 // console.log(copy == sq % Math.pow(10, count) ? "Automorphic" : "Not Automorphic")
 
 
+// let num = 625
+// let copy = num 
+// let sq = num * num 
+// let count = 0
+
+// while(num > 0){
+//     count++
+//     num = Math.floor(num / 10)
+// }
+
+// console.log(copy == sq % Math.pow(10, count) ? "Automorphic" : "Not Automorphic")
 
 
+// let digit = 6758
+// let ans = 0
+
+// while(digit > 0 || ans > 9){
+//     if(digit == 0){
+//         digit = ans
+//         ans = 0
+//     }
+//     let mod = digit % 10
+//     ans = ans + mod 
+//     digit = Math.floor(digit / 10) 
+// }
+
+
+// console.log(ans) 
+
+
+// let num = 6758 
+// let sum = 0
+
+// while(num > 0 || sum > 9){
+
+//     if(num == 0){
+//         num = sum 
+//         sum = 0
+//     }
+
+//     let mod = num % 10
+//     sum = sum + mod 
+//     num = Math.floor(num / 10)
+// }
+
+// console.log(sum) 
+
+
+// let num = 8
+// let first = 0
+// let second = 1
+// console.log(first)
+// console.log(second)
+
+
+// for(let i=3; i<=num; i++){
+//     let third = first + second
+//     console.log(third)
+//     first = second
+//     second = third
+// }
+
+
+// let num = 8;
+// let first = 0;
+// let second = 1;
+
+// let result = first + " " + second + " "; // start with first two numbers
+
+
+
+// for (let i = 3; i <= num; i++) {
+//     let third = first + second;
+//     result = result + third + " ";  // append next number to the result string
+//     first = second;
+//     second = third; 
+// }
+
+// console.log(result); // print all in one line
+// console.log(typeof(result))
+
+
+// let num = 10 
+// let first = 0
+// let second = 1
+
+// let result = first + " " + second + " "
+
+// for(let i=3; i<=num; i++){
+//     let third = first + second 
+//     result = result + third + " "
+//     first = second
+//     second = third
+// }
+// console.log(result)
+
+// do {
+//     var a = "hello"
+//     var input = Number(prompt("Enter the value"));
+//     if(input === 1){
+//         console.log("hello")
+//     }else{
+//         console.log("Program Exist")
+//     }
+// } while (input > 1 && input < 1 || input === 1);
+
+
+// let n = 5
+
+// for(let i=1; i <= n; i++){
+//     for(j=1; j<=n; j++){
+//         process.stdout.write("*")
+//     }
+
+//     console.log("")
+// }
+
+
+// let n = 5 
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write(j + " ")
+//     }
+
+//     console.log()
+// }
+
+
+// let n = 5 
+
+// for(let i=1; i<=n; i++){
+    
+//     for(let j=1; j<=n-i+1; j++){
+//         process.stdout.write(" ")
+//     }
+
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write("* ")
+//     }
+    
+//     console.log()
+// }
+
+
+
+// let n = 5;
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=(2*n)-1; j++){
+
+//         if (i==j || i+j == 2*n) {
+//             process.stdout.write("*")
+//         } else {
+//             process.stdout.write(" ")          
+//         }
+//     }
+
+//     console.log()
+// }
+
+
+// let n = 5;
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=n; j++){
+
+//         if (i == j || i+j == n+1) {
+//             process.stdout.write("*")
+//         } else {
+//             process.stdout.write(" ")
+//         }
+//     }
+//     console.log()
+// }
+
+
+// let n = 8
+// let first = 0
+// let second = 1
+// let result = first + " " + second + " "
+
+
+// for(let i=3; i<=n; i++){
+//     let third = first + second
+//     result = result + third + " "
+//     first = second
+//     second = third
+// }
+// console.log(result) 
+
+// let n = 10
+// let first = 0
+// let second = 1
+// let result = first + " " + second + " "
+
+// for(let i=3; i<=10; i++){
+//     let third = first + second
+//     result = result + third + " "
+//     first = second
+//     second = third
+// }
+// console.log(result)
 

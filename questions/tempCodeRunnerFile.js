@@ -367,3 +367,170 @@
 // }
 // console.log(result)
 
+
+// let n = 5
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write("*")
+//     }
+
+//     console.log()
+// }
+
+// let n = 5 
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write(j + " ")
+//     }
+
+//     console.log()
+// }
+
+// let n = 5 
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write(String.fromCharCode(64 + j) + " ")
+//     }
+
+//     console.log()
+// }
+
+
+// let n = 5 
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=n-i+1; j++){
+//         process.stdout.write(" ") 
+//     }
+
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write("* ") 
+//     }
+    
+//     console.log()
+// }
+
+
+// let n = 5 
+
+// for(let i=1; i<=n; i++){
+
+//     for(let j=1; j<=(2*n)-1; j++){
+
+//         if (i == j || i+j==2*n) {
+//             process.stdout.write("*")
+//         } else {
+//             process.stdout.write(" ")
+//         }
+//     }
+
+//     console.log()
+// }
+
+
+// let n  = 5 
+
+// for(let i=1; i<=n; i++){
+    
+//     for(let j=1; j<=n; j++){
+//         if (i == j || i+j == n+1) {
+//             process.stdout.write("*")
+//         } else {
+//             process.stdout.write(" ")
+//         }
+//     }
+    
+//     console.log()
+// }
+
+
+// let arr = [10, 15, 20, 25, 30]
+
+// let sum = 0
+
+// for(let i=0; i<=arr.length-1; i++){
+//     sum = sum + arr[i] 
+// }
+// console.log(sum)
+// console.log(sum / arr.length)
+
+// let arr = [10, 5, 2, 37, 8]
+// let grestest = arr[0]
+// let index = 0
+
+// for(let i=0; i<=arr.length-1; i++){
+//     if(grestest < arr[i+1]){
+//         grestest = arr[i+1]
+//         index = i+1
+//     }
+// }
+// console.log(`gretest array is ${grestest} and index is ${index}`)
+
+
+// let arr = [10, 15, 20, 25, 30]
+
+// let sum = 0 
+
+// for(let i=0; i<=arr.length-1; i++){
+//     sum = sum + arr[i] 
+// }
+// console.log(sum)
+// console.log(Math.floor(sum/arr.length))
+
+
+// let arr  = [10, 5, 2, 37, 8]
+
+// let greatest = arr[0]
+// let index = 0
+
+// for(let i=0; i<=arr.length-1; i++){
+//     if(greatest < arr[i+1]){
+//         greatest = arr[i+1]
+//         index = i + 1
+//     }
+// }
+
+// console.log(`greatest array is ${greatest} and index is ${index}`)
+
+
+
+// let arr = [40, 40, 50, 8, 12, 68, 43] 
+
+// let greatest = Math.max(arr[0], arr[1])
+// console.log(greatest)
+// let secondGreatest = Math.min(arr[0], arr[1])
+// console.log(secondGreatest)
+
+// for(let i=2; i<=arr.length-1; i++){
+//     if(arr[i] > greatest){
+//         secondGreatest = greatest
+//         greatest = arr[i]
+//     }else if (arr[i] > secondGreatest) {
+//         secondGreatest = arr[i]
+//     }
+// }
+// console.log(secondGreatest)
+
+
+
+// let arr = [20, 40, 50, 8, 12, 68, 43] 
+
+// let greatest = Math.max(arr[0], arr[1])
+// let secondGreatest = Math.min(arr[0], arr[1])
+
+// for(let i=2; i<=arr.length-1; i++){
+//     if(arr[i] > greatest){
+//         secondGreatest = greatest
+//         greatest = arr[i]
+//     }else if(arr[i] > secondGreatest){
+//         secondGreatest = arr[i]
+//     }
+// }
+// console.log(secondGreatest)
+

@@ -688,7 +688,7 @@
 //     } else if(arr[i] > secondGreatest){
 //         secondGreatest = arr[i]
 //     }
-// }
+// } 
 // console.log(secondGreatest);
 
 // _____________________________________

@@ -534,3 +534,120 @@
 // }
 // console.log(secondGreatest)
 
+
+// let arr = [12,2,3,4,5]
+
+// let isSorted = true
+
+// for(let i=0; i<=arr.length-1; i++){
+//     if(arr[i] > arr[i+1]){
+//         isSorted = false
+//         break
+//     }
+// }
+
+// console.log(isSorted)
+
+
+// let nums = [1, 2, 3, 4, 5]
+
+// let copy = [...nums]
+
+// console.log(copy)
+
+
+
+// let arr = [10,20,30,40,50]
+
+// let k = 2
+
+// for(let j=1; j<=k; j++){
+//     let temp = arr[0]
+//     for(let i=0; i<arr.length; i++){
+//         arr[i] = arr[i+1]
+//     }
+//     arr[arr.length-1] = temp
+// }
+
+// console.log(arr)
+
+
+// let arr = [1, 2, 3, 4, 5]
+// let temp = arr[0]
+// for(let i=0; i<arr.length; i++){
+//         arr[i] = arr[i+1]
+// }
+// arr[arr.length-1] = temp
+
+// console.log(arr) 
+
+// let arr = [1, 2, 3, 4, 5]
+
+// let k = 6
+
+// for(let i=1; i<=k; i++){
+//     let temp = arr[0]
+//     for(let j=0; j<=arr.length-1; j++){
+//         arr[j] = arr[j + 1]
+//     }
+//     arr[arr.length-1] = temp
+// }
+
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5] 
+
+// let k = 3
+
+// for(let i=1; i<=k; i++){
+//     let temp = arr[0]
+//     for(let j=0; j<=arr.length-1; j++){
+//         arr[j] = arr[j + 1]
+//     }
+//     arr[arr.length-1] = temp 
+// }
+// console.log(arr)
+
+
+// let arr = [1, 2, 3, 4, 5]
+
+// let left = 0
+// let right = arr.length-1
+
+// while(right > left){
+//     let temp = arr[left]
+//     arr[left] = arr[right]
+//     arr[right] = temp
+//     left++
+//     right--
+// }
+// console.log(arr)
+
+
+// let num = [1, 2, 3, 4, 5]
+
+// let left = 0
+// let right = num.length-1
+
+// while(left < right){
+//     let temp = num[left]
+//     num[left] = num[right]
+//     num[right] = temp
+//     left++
+//     right--
+// }
+
+// console.log(num)
+
+
+let arr = [1, 2, 3, 4, 5]
+
+let key = 10
+let index = -1
+
+for(let i=0; i<=arr.length-1; i++){
+    if(arr[i] == key){
+        index = i
+    }
+}
+console.log(`key is ${key} index is ${index}`)

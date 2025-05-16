@@ -834,7 +834,7 @@
 //     let minIndex = i;      // Assume current index has the smallest element
 //                           // Find the smallest element in the unsorted portion
 //     for (let j = i + 1; j < arr.length; j++) {
-//         if (arr[j] < arr[minIndex]) {
+//         if (arr[minIndex] > arr[j]) {
 //             minIndex = j;  // Update minIndex if a smaller element is found
 //         }
 //     }

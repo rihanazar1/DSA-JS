@@ -640,14 +640,202 @@
 // console.log(num)
 
 
-let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
 
-let key = 10
-let index = -1
+// let key = 10
+// let index = -1
 
-for(let i=0; i<=arr.length-1; i++){
-    if(arr[i] == key){
-        index = i
+// for(let i=0; i<=arr.length-1; i++){
+//     if(arr[i] == key){
+//         index = i
+//     }
+// }
+// console.log(`key is ${key} index is ${index}`)
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let key = 2
+// let result = -1
+
+// let left = 0 
+// let right = arr.length-1
+
+// while(left <= right){
+//     let mid = Math.floor((left + right) / 2)
+
+//     if(arr[mid] == key){
+//         result = mid
+//         break
+//     }else if(arr[mid] < key){
+//         left = mid + 1
+//     }else if(arr[mid] > key){
+//         right = mid - 1
+//     }
+// }
+// console.log(`key is ${key} result is ${result}`) 
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// let key = 9
+// let result = -1
+// let left = 0
+// let right = arr.length-1
+
+// while(left <= right){
+//     let mid = Math.floor((left + right) / 2)
+
+//     if (arr[mid] == key) {
+//         result = mid
+//         break
+//     } else if(arr[mid] < key){ 
+//         left = mid + 1
+//     } else{
+//         right = mid - 1
+//     }
+// }
+
+// console.log(`key is ${key} result is ${result}`)
+
+
+// let arr =  [10, 5, 1, 12, 3]
+
+// for(let i=0; i<=arr.length-1; i++){
+
+//     for(let j=0; j<=arr.length-1-i; j++){
+
+//         if (arr[j] > arr[j+1]) {
+//             let temp = arr[j]
+//             arr[j] = arr[j+1]
+//             arr[j+1] = temp 
+//         }
+//     }
+// }
+// console.log(arr)
+
+
+// let arr = [10, 5, 1, 8, 13, 7];
+
+// for(let i=0; i<=arr.length-1; i++){
+//     let minIndex = i
+
+//     for(let j=i+1; j<=arr.length-1; j++){
+//         if(arr[minIndex] > arr[j]){
+//             minIndex = j 
+//         }
+//     }
+
+//     let temp = arr[i]
+//     arr[i] = arr[minIndex]
+//     arr[minIndex] = temp
+// }
+
+// console.log(arr)
+
+
+// let arr = [4, 3, 6, 7, 11, 9];
+
+// for(let i=0; i<=arr.length-1; i++){
+
+//     let minIndex = i
+
+//     for(let j=i+1; j<=arr.length; j++){
+//         if(arr[minIndex] > arr[j]){
+//             minIndex = j 
+//         }
+//     }
+
+//     let temp = arr[i]
+//     arr[i]  = arr[minIndex]
+//     arr[minIndex] = temp
+// }
+
+// console.log(arr)
+
+// let arr = [10, 5, 12, 1, 3]
+
+// for (let i = 1; i < arr.length; i++) {
+//     let key = arr[i]; 
+//     let j = i - 1; 
+
+    
+//     while (j >= 0 && arr[j] > key) {
+//         arr[j + 1] = arr[j]; 
+//         j--;
+//     }
+//     arr[j + 1] = key; 
+// }
+
+// console.log(arr); 
+
+
+// let arr = [8, 2, 5, 6, 16, 20]
+
+// for(let i=0; i<=arr.length-1; i++){
+//     let minIndex = i 
+
+//     for(let j=i+1; j<=arr.length-1; j++){
+//         if(arr[minIndex] > arr[j]){
+//             minIndex = j
+//         }
+//     }
+
+//     let temp = arr[i]
+//     arr[i] = arr[minIndex]
+//     arr[minIndex] = temp
+// }
+
+// console.log(arr)
+
+// for(let i=0; i<=arr.length-1; i++){
+//     let smallIndex = i
+
+//     for(let j=i+1; j<=arr.length-1; j++){
+//         if(arr[smallIndex] > arr[j]){
+//             smallIndex = j
+//         }
+//     }
+
+//     let temp = arr[i]
+//     arr[i] = arr[smallIndex]
+//     arr[smallIndex] = temp
+// }
+
+// console.log(arr)
+
+// let num = [3, 5, 1, 9, 11, 22, 30]
+
+// for(let i=0; i<=num.length-1; i++){
+//     let minIdx = i 
+
+//     for(let j=i+1; j<=num.length-1; j++){
+//         if(num[minIdx] > num[j]){
+//             minIdx = j
+//         }
+//     }
+
+//     let temp = num[i]
+//     num[i] = num[minIdx]
+//     num[minIdx] = temp 
+// }
+
+// console.log(num)
+
+
+
+
+let arr = [10, 5, 12, 1, 3]
+
+for (let i = 1; i < arr.length; i++) {
+    let key = arr[i]; 
+    let j = i - 1; 
+
+    
+    while (j >= 0 && arr[j] > key) {
+        arr[j + 1] = arr[j]; 
+        j--;
     }
+    arr[j + 1] = key; 
 }
-console.log(`key is ${key} index is ${index}`)
+
+console.log(arr); 

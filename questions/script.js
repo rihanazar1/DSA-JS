@@ -670,7 +670,7 @@
 //         min = arr[i]
 //     }
 // }
-// console.log(`Greatest array is ${max}`);
+// console.log(`Greatest array is ${min}`); 
 
 
 //_______________________________________________
@@ -701,6 +701,23 @@
 // }
 // console.log(temp);
 
+//___________________________________________________
+// 0 left side 
+
+// let arr = [0, 1, 1, 0, 0 ,1, 0, 1]
+
+// let j = 0
+
+// for(let i =0; i<=arr.length-1; i++){
+//     if(arr[i] == 0){
+//         let temp = arr[i]
+//         arr[i] = arr[j] 
+//         arr[j] = temp
+//         j++
+//     }
+// }
+// console.log(arr)
+
 //_____________________________________________
 // Is Array Sorted 
 // let arr = [10,15,21,25,27,30,5]
@@ -721,6 +738,8 @@
 // ___________________________________________________
 //Left rotate array  & rotate from K
 
+//Brute Force Approche
+
 // let arr = [10,20,30,40,50]
 
 // let k = 2
@@ -734,6 +753,18 @@
 // }
 
 // console.log(arr)
+
+// opptimal approche
+
+// let arr = [1, 2, 3, 4, 5]
+
+// let temp = new Array(arr.length)
+// let k = 3
+
+// for(let i=0; i< arr.length; i++){
+//     temp[i] = arr[(i+k) % arr.length]
+// }
+// console.log(temp)
 
 //_________________________________________________
 
@@ -969,7 +1000,41 @@
 // }
 
 // console.log(arr)
+//____________________________________________________
 
+//Merge Two Sorted Array
+
+// let arr1 = [2, 5, 6]
+// let arr2 = [1, 3, 4, 8]
+// let merge = new Array(arr1.length + arr2.length)
+
+// let i=0 , j=0, k = 0
+
+// while(i<arr1.length && j< arr2.length){
+
+//     if(arr1[i] < arr2[j]){
+//         merge[k] = arr1[i]  
+//         k++
+//         i++
+//     }else{
+//         merge[k] = arr2[j]
+//         k++
+//         j++
+//     }
+// }
+
+// while(j<arr2.length){
+//     merge[k] = arr2[j]
+//     k++
+//     j++
+// }
+// while(i<arr1.length){ 
+//     merge[k] = arr1[i]
+//     k++
+//     i++
+// }
+
+// console.log(merge) 
 
 //____________________________________________
 // Count subarrays’ sum equals target
@@ -990,6 +1055,64 @@
 // }
 
 // console.log(count);
+
+// find subarrays
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let st = 0; st < arr.length; st++) {
+//     for (let end = st; end < arr.length; end++) {
+//         let subArray = "";
+//         for (let i = st; i <= end; i++) {
+//             subArray += arr[i] + " ";
+//         }
+//         // console.log(subArray.trim());
+//         process.stdout.write(subArray)
+//     }
+//     console.log(""); // for line break like endl
+// }
+
+//Maximum Subarray By using Brute force 
+
+// let arr = [-2,1,-3,4,-1,2,1,-5,4] 
+
+// let maxSum = 0
+
+// for(let i=0; i<arr.length; i++){
+
+//     let currSum = 0
+//     for(let j=i; j<arr.length; j++){
+//         currSum = currSum + arr[j]
+//         maxSum = Math.max(currSum, maxSum)
+//     }
+// }
+
+// console.log(maxSum)
+
+//Kadane's Algorithm 
+
+// let nums = [-2,1,-3,4,-1,2,1,-5,4]
+
+// let maxSum = nums[0];
+// let currentSum = nums[0];
+
+// for (let i = 1; i < nums.length; i++) {
+//     currentSum = Math.max(nums[i], currentSum + nums[i]);
+//     maxSum = Math.max(maxSum, currentSum);
+// }
+
+// console.log(maxSum);
+
+// let arr = [-2,1,-3,4,-1,2,1,-5,4] 
+
+// let currSum = arr[0]
+// let maxSum = arr[0]
+
+// for(let i=1; i<arr.length; i++){
+//     currSum = Math.max(arr[i], currSum + arr[i]) 
+//     maxSum = Math.max(maxSum, currSum)
+// }
+// console.log(maxSum)
 
 // ______________________________________________________
 //Find the frequency of array elements

@@ -15,6 +15,24 @@
 // console.log(s.trimEnd); }}}}}}
 
 
+//TRIM 
+// Doesn’t remove spaces between words, just from start/end.
+// let str = "   Hello World!   ";
+// let trimmed = str.trim();
+// console.log(trimmed); // "Hello World!"
 
+
+//SPLIT
+// ➤ Use: Convert string → array using a separator
+// let str = "apple,banana,mango";
+// let fruits = str.split(",");
+// console.log(fruits); // ["apple", "banana", "mango"]
+
+
+//JOIN
+// ➤ Use: Convert array → string
+// let arr = ["a", "b", "c"];
+// let result = arr.join("-");
+// console.log(result); // "a-b-c"
 
 

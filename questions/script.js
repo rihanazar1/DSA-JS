@@ -269,7 +269,7 @@
 
 
 // __________________________________________________
-// 22.  Palindrome number
+// 22.  Palindrome numberk
 
 // let n = Number(prompt("enter the value"));
 
